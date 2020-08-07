@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Button</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .date{
+            margin-left: 650px;
+            margin-top: 100px;
+        }
+        .text{
+            margin-left: 500px;
+            margin-top: 100px;
+        }
+    </style>
+    
+    
+</head>
+<body>
+    <div class="text">
+        <h1>Javascript to get current date</h1>
+    </div>
+    <div class="date">
+        <button type="button" onclick="displayDate()">GET DATE</button>
+        <p id="showDate"></p>
+    </div>    
+       
+        <script>
+            function displayDate() {
+                document.getElementById("showDate").innerHTML = Date ();
+            }
+        </script>
+    
+</body>
+</html>
